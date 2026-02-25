@@ -107,3 +107,9 @@ python -m django --version
 ---
 
 Your backend environment is now ready for development. 🚀
+
+<!-- PROJECT UI LINK-->
+
+https://www.wix.com/website-template/view/html/wh-1085?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates&tpClick=view_button&esi=9c076856-b31e-417d-9538-681b28347477
+
+<!-- PROJECT UI LINK-->
