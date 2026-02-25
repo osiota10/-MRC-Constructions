@@ -57,36 +57,51 @@ venv\Scripts\activate
 
 ---
 
-## 🚀 Install Django
+## 📥 Install Dependencies from `requirements.txt`
 
-Once the virtual environment is activated, install Django:
+Once the virtual environment is activated, install all required dependencies using:
 
 ```bash
-pip install django
+pip install -r requirements.txt
+```
+
+If `requirements.txt` does not yet exist, you can generate it with:
+
+```bash
+pip freeze > requirements.txt
 ```
 
 ---
 
-## 🔐 Install and Configure `django-environ`
+## 🔐 Configure Environment Variables
 
-Install `django-environ` to manage environment variables:
+Create a `.env` file in your project root to manage environment variables (recommended when using `django-environ`).
 
-```bash
-pip install django-environ
+Example:
+
+```env
+DEBUG=True
+SECRET_KEY=your-secret-key
+DATABASE_URL=sqlite:///db.sqlite3
 ```
 
-You can now configure your environment variables using a `.env` file in your project root.
+Make sure to add the following to your `.gitignore` file:
+
+```
+venv/
+.env
+```
 
 ---
 
 ## 📝 Notes
 
 - Always ensure your virtual environment is activated before installing dependencies.
-- Add `venv/` and `.env` to your `.gitignore` file to prevent them from being committed to version control.
-- Run the following command to generate a dependency file if needed:
+- Never commit your `.env` file or `venv/` directory to version control.
+- After installation, you can verify Django is installed with:
 
 ```bash
-pip freeze > requirements.txt
+python -m django --version
 ```
 
 ---
