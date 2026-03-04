@@ -60,7 +60,7 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -121,3 +121,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'static'),]
+
+
+# The URL path for the browser (e.g., /media/profile.jpg)
+MEDIA_URL = '/media/'
+
+# The actual folder on your hard drive where files are saved 
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
