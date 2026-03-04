@@ -1,13 +1,15 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MRC constructions</title>
-    <link rel="stylesheet" href="{% static 'css/index.css'%}" />
+    <link rel="stylesheet" href="{% static 'CSS/index.css'%}" />
   </head>
   <body>
     <nav></nav>
+    {% block content %}{%endblock%}
     <footer></footer>
   </body>
 </html>
