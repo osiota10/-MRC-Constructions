@@ -6,8 +6,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #11035c;
-  color: white;
+  /* background: red; */
+  /* color: white; */
+  padding-top: 63.31px;
 }
 
 a {
@@ -20,10 +21,13 @@ a:hover {
 
 nav {
   background-color: #fff;
-  padding: 0.7rem 2rem;
+  padding: 0.7rem 2.5rem;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
 }
 
 nav a {
@@ -56,13 +60,136 @@ h3 a:hover {
   font-size: 0.9rem;
 }
 
-.nav-button {
+.gen-button {
   padding: 0.8rem 2.2rem;
   border-radius: 5rem;
   border: 0;
+  cursor: pointer;
+}
+
+.nav-button {
   background-color: #bd4f00;
 }
 
 .nav-button a {
+  color: white;
+}
+
+.hero-section {
+  padding: 4rem 0rem 0rem 2.5rem;
+  background-color: aqua;
+  height: 40rem;
+}
+
+.hero-section p {
+  color: white;
+  font-size: 5rem;
+  line-height: 5rem;
+}
+
+.hero-section p:nth-child(2) {
+  font-size: 1.8rem;
+}
+
+.view-project-button {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.view-project-button a {
+  color: black;
+}
+
+.contact-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1.2px solid white;
+}
+
+.contact-button a {
+  color: white;
+}
+
+.project-grid-container {
+  padding: 2.5rem;
+}
+
+.project-grid-section p {
+  font-size: 1.3rem;
+}
+
+.project-grid-section p:nth-child(2) {
+  color: #bd4f00;
+  font-size: 2.5rem;
+}
+
+.project-grid {
+  padding: 2rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 2.5rem;
+}
+
+.project-grid h3 {
+  padding-bottom: 1.5rem;
+}
+
+.project-grid-text-one {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 0.84rem;
+  line-height: 1.4rem;
+}
+
+.project-grid-image-one {
+  grid-column: 3/5;
+  grid-row: 1/3;
+  background-color: red;
+}
+
+.project-grid-image-two {
+  grid-column: 1/3;
+  grid-row: 3/5;
+  background-color: blue;
+}
+
+.project-grid-text-two {
+  grid-column: 3/4;
+  grid-row: 4/5;
+  font-size: 0.84rem;
+  line-height: 1.4rem;
+}
+
+.project-grid-image-four {
+  grid-column: 2/3;
+  grid-row: 5;
+  background-color: orange;
+  height: 15rem;
+}
+
+.project-grid-text-three {
+  grid-column: 1/2;
+  grid-row: 6/7;
+  font-size: 0.84rem;
+  line-height: 1.4rem;
+}
+
+.project-grid-image-three {
+  grid-column: 3/5;
+  grid-row: 5/7;
+  background-color: green;
+}
+
+.read-more-button {
+  padding: 0.7rem 1.7rem;
+  margin-top: 1.5rem;
+  border-radius: 5rem;
+  border: 0;
+  cursor: pointer;
+  background-color: black;
+}
+
+.read-more-button a {
   color: white;
 }
