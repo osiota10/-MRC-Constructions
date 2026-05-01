@@ -55,7 +55,7 @@ h3 a:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 8rem;
+  gap: 6rem;
 }
 
 .nav-bar li {
@@ -243,7 +243,6 @@ h3 a:hover {
 }
 
 .about-company-description {
-  /* margin-top: 5rem; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.2rem;
@@ -262,6 +261,8 @@ h3 a:hover {
 
 .our-services-container {
   padding: 4rem 2.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .our-services-header {
@@ -276,6 +277,7 @@ h3 a:hover {
 }
 
 .our-services-grid-description {
+  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.3rem;
@@ -283,5 +285,41 @@ h3 a:hover {
 
 .our-services-grid-wrapper {
   background-color: #f7f7f7;
-  padding: 2rem;
+  padding: 1.5rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.svg-icon {
+  background-color: crimson;
+  height: 2rem;
+  width: 15%;
+  margin-bottom: 3rem;
+}
+
+.read-more-button:nth-child(3) {
+  margin-left: auto;
+}
+
+.our-projects {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+}
+
+.red {
+  background-color: red;
+  height: 20rem;
+}
+.blue {
+  background-color: blue;
+  height: 12rem;
+}
+.green {
+  background-color: green;
+  height: 20rem;
+}
+.yellow {
+  background-color: yellow;
+  height: 15rem;
 }
