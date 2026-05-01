@@ -19,6 +19,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.line-height p {
+  line-height: 1.3rem;
+}
+
 nav {
   background-color: #fff;
   padding: 0.7rem 2.5rem;
@@ -114,11 +118,15 @@ h3 a:hover {
   padding: 2.5rem;
 }
 
-.project-grid-section p {
+.grid-header {
+  width: 100%;
+}
+
+.grid-header p {
   font-size: 1.3rem;
 }
 
-.project-grid-section p:nth-child(2) {
+.grid-header p:nth-child(2) {
   color: #bd4f00;
   font-size: 2.5rem;
 }
@@ -139,7 +147,6 @@ h3 a:hover {
   grid-column: 1/2;
   grid-row: 2/3;
   font-size: 0.84rem;
-  line-height: 1.4rem;
 }
 
 .project-grid-image-one {
@@ -158,7 +165,6 @@ h3 a:hover {
   grid-column: 3/4;
   grid-row: 4/5;
   font-size: 0.84rem;
-  line-height: 1.4rem;
 }
 
 .project-grid-image-four {
@@ -172,7 +178,6 @@ h3 a:hover {
   grid-column: 1/2;
   grid-row: 6/7;
   font-size: 0.84rem;
-  line-height: 1.4rem;
 }
 
 .project-grid-image-three {
@@ -192,4 +197,91 @@ h3 a:hover {
 
 .read-more-button a {
   color: white;
+}
+
+.about-company {
+  background-color: aqua;
+  padding: 4rem 2.5rem;
+}
+
+.about-company-text {
+  color: white;
+  line-height: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.about-company-text p {
+  font-size: 1.3rem;
+}
+
+.about-company-text p:nth-child(2) {
+  font-size: 2.4rem;
+  padding-top: 0.8rem;
+}
+
+.about-company-text-one {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.about-company-text-two {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.signature {
+  background-color: black;
+  height: 3rem;
+  width: 6rem;
+}
+
+.about-company-text-three {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.about-company-description {
+  /* margin-top: 5rem; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.2rem;
+}
+
+.description-wrapper {
+  background-color: white;
+  padding: 2rem 1.5rem;
+}
+
+.description-wrapper h2 {
+  font-weight: 300;
+  font-size: 2.4rem;
+  padding-bottom: 1.8rem;
+}
+
+.our-services-container {
+  padding: 4rem 2.5rem;
+}
+
+.our-services-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+.our-services-text {
+  padding-right: 17rem;
+  font-size: 0.9rem;
+}
+
+.our-services-grid-description {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.3rem;
+}
+
+.our-services-grid-wrapper {
+  background-color: #f7f7f7;
+  padding: 2rem;
 }
