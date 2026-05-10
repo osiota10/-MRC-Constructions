@@ -311,15 +311,127 @@ h3 a:hover {
   background-color: red;
   height: 20rem;
 }
+
 .blue {
   background-color: blue;
   height: 12rem;
 }
+
 .green {
   background-color: green;
   height: 20rem;
 }
+
 .yellow {
   background-color: yellow;
   height: 15rem;
+}
+
+.our-client-container {
+  padding: 4rem 2.5rem 2.5rem;
+  background-color: #f7f7f7;
+}
+
+.our-clients {
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.3rem;
+}
+
+.sponsors {
+  height: 12rem;
+  background-color: white;
+}
+
+footer {
+  padding: 2.5rem 5rem 0rem 2.5rem;
+  background-color: #bd4f00;
+  color: white;
+  line-height: 1.3rem;
+  font-size: 0.89rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+footer ul {
+  list-style-type: none;
+  line-height: 1.6rem;
+}
+
+footer h4 {
+  padding-bottom: 0.5rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+.footer-header {
+  grid-column: 1/4;
+  font-size: 3.2rem;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.footer-button {
+  padding: 0.8rem 3.4rem;
+  margin-top: 2rem;
+  border-radius: 5rem;
+  border: 0;
+  cursor: pointer;
+  background-color: white;
+}
+
+.footer-button a {
+  color: #bd4f00;
+}
+
+.footer-button a:hover {
+  text-decoration: underline;
+}
+
+.office {
+  grid-column: 4/5;
+  padding-right: 2.1rem;
+}
+
+.inquiry {
+  grid-column: 5/6;
+}
+
+.footer-link a {
+  text-decoration: underline;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  grid-column: 6/7;
+}
+
+.social {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.legal {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+
+.copyright-text {
+  grid-column: 4/7;
+  grid-row: 3;
+  margin-top: -2.5rem;
 }
