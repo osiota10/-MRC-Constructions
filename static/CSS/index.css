@@ -81,7 +81,7 @@ h3 a:hover {
 
 .hero-section {
   padding: 4rem 0rem 0rem 2.5rem;
-  background-color: aqua;
+  background-image: url(https://static.wixstatic.com/media/c837a6_fefc273ffeeb42d5a045775e78e4de18f000.jpg/v1/fill/w_1521,h_875,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_fefc273ffeeb42d5a045775e78e4de18f000.jpg);
   height: 40rem;
 }
 
@@ -152,13 +152,13 @@ h3 a:hover {
 .project-grid-image-one {
   grid-column: 3/5;
   grid-row: 1/3;
-  background-color: red;
+  background-image: url(https://static.wixstatic.com/media/c837a6_5683192174084cf7883bd499993ef840~mv2.jpeg/v1/fill/w_860,h_1067,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_136f489b41d445c38ff79f772d719210~mv2.jpeg);
 }
 
 .project-grid-image-two {
   grid-column: 1/3;
   grid-row: 3/5;
-  background-color: blue;
+  background-image: url(https://static.wixstatic.com/media/c837a6_1aa91221d7904160919be80412e91c39~mv2.jpeg/v1/fill/w_860,h_1065,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_069649aec1074db192a4cd263d81a897~mv2.jpeg);
 }
 
 .project-grid-text-two {
@@ -170,8 +170,8 @@ h3 a:hover {
 .project-grid-image-four {
   grid-column: 2/3;
   grid-row: 5;
-  background-color: orange;
-  height: 15rem;
+  background-image: url(https://static.wixstatic.com/media/c837a6_5bf51c9248904a95a9efabbc54f12915~mv2.jpg/v1/fill/w_428,h_309,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_5bf51c9248904a95a9efabbc54f12915~mv2.jpg);
+  height: 13rem;
 }
 
 .project-grid-text-three {
@@ -183,7 +183,14 @@ h3 a:hover {
 .project-grid-image-three {
   grid-column: 3/5;
   grid-row: 5/7;
-  background-color: green;
+  background-image: url(https://static.wixstatic.com/media/c837a6_1babac5f15624775bb9510b24cf99cae~mv2.jpeg/v1/fill/w_860,h_1065,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_47223d00a4af4c01bde4b5a6b06ea3ad~mv2.jpeg);
+}
+
+.background-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
 }
 
 .read-more-button {
@@ -200,7 +207,7 @@ h3 a:hover {
 }
 
 .about-company {
-  background-color: aqua;
+  background-image: url(https://static.wixstatic.com/media/c837a6_cb3c1b8f54d748d0a22fab89e6eabdfe~mv2.jpg/v1/fill/w_2181,h_1304,fp_0.50_0.50,q_90,usm_0.66_1.00_0.01,enc_auto/shutterstock_2389088485.jpg);
   padding: 4rem 2.5rem;
 }
 
@@ -209,7 +216,7 @@ h3 a:hover {
   line-height: 1.6rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .about-company-text p {
@@ -232,14 +239,15 @@ h3 a:hover {
 }
 
 .signature {
-  background-color: black;
+  background-image: url(https://static.wixstatic.com/media/c837a6_e708d02a52274b9bbb8e5e37caa266d6~mv2.png/v1/fill/w_188,h_83,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_e708d02a52274b9bbb8e5e37caa266d6~mv2.png);
   height: 3rem;
   width: 6rem;
 }
 
 .about-company-text-three {
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 2/3;
+  margin-top: 3rem;
 }
 
 .about-company-description {
@@ -308,23 +316,23 @@ h3 a:hover {
 }
 
 .red {
-  background-color: red;
-  height: 20rem;
+  background-image: url(https://static.wixstatic.com/media/c837a6_de820b97281e45ef9989cacd67da58b8~mv2.jpeg/v1/fill/w_453,h_566,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_de820b97281e45ef9989cacd67da58b8~mv2.jpeg);
+  height: 22rem;
 }
 
 .blue {
-  background-color: blue;
-  height: 12rem;
+  background-image: url(https://static.wixstatic.com/media/c837a6_b2373832dde34c5c9aa62ef47e412100~mv2.jpg/v1/fill/w_453,h_340,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_b2373832dde34c5c9aa62ef47e412100~mv2.jpg);
+  height: 14rem;
 }
 
 .green {
-  background-color: green;
-  height: 20rem;
+  background-image: url(https://static.wixstatic.com/media/c837a6_85ead5ce43ff4a748eb1e070726d828c~mv2.jpg/v1/fill/w_453,h_566,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_85ead5ce43ff4a748eb1e070726d828c~mv2.jpg);
+  height: 22rem;
 }
 
 .yellow {
-  background-color: yellow;
-  height: 15rem;
+  background-image: url(https://static.wixstatic.com/media/c837a6_64e23022b562415b959fa8b9e6e24cf3~mv2.jpeg/v1/fill/w_453,h_407,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_64e23022b562415b959fa8b9e6e24cf3~mv2.jpeg);
+  height: 17rem;
 }
 
 .our-client-container {
@@ -342,6 +350,94 @@ h3 a:hover {
 .sponsors {
   height: 12rem;
   background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 18%;
+}
+
+.volve-sponsor-logo {
+  background-image: url(https://static.wixstatic.com/media/84770f_071becafc5084491ab964da7cc2c3be9~mv2.png/v1/fill/w_138,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/volve.png);
+}
+
+.shawn-sponsor-logo {
+  background-image: url(https://static.wixstatic.com/media/c837a6_037caf5a45f64326945a5ca53075b801~mv2.png/v1/fill/w_138,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_5941a277bffd45ef89c67c38afd28775~mv2.png);
+}
+
+.latch-sponsor-logo {
+  background-image: url(https://static.wixstatic.com/media/c837a6_15f4d08f26a9484c81e278deaa519ee2~mv2.png/v1/fill/w_138,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_15f4d08f26a9484c81e278deaa519ee2~mv2.png);
+}
+
+.tocket-sponsor-logo {
+  background-image: url(https://static.wixstatic.com/media/c837a6_ac4233583e5045d795ca52fbc5b01a9d~mv2.png/v1/fill/w_138,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_2685f63e32b04c56b654c7699a54c206~mv2.png);
+}
+
+.demotive-sponsor-logo {
+  background-image: url(https://static.wixstatic.com/media/c837a6_b57496d794ae4819a9a849101b96c535~mv2.png/v1/fill/w_152,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_66d8b0abceef469f9bd2b5ddb4e39fa2~mv2.png);
+}
+
+.eembreeque-sponsor-logo {
+  background-image: url(https://static.wixstatic.com/media/84770f_2c0b0fc7c90b46419c0fc064b0523c30~mv2.png/v1/fill/w_138,h_45,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/emb.png);
+}
+
+.section-grid-container {
+  padding: 4rem 1rem 0rem;
+}
+
+.section-grid-header {
+  padding: 0rem 2.5rem;
+}
+
+.section-grid {
+  padding: 2rem 0rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.section-grid h3 {
+  padding-bottom: 1.5rem;
+}
+
+.grid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0rem 17rem 2rem 2rem;
+  font-size: 0.84rem;
+}
+
+.section-grid-image-one {
+  background-image: url(https://static.wixstatic.com/media/c837a6_cfc794133f1c475a9fbddb2719a858f3~mv2.jpeg/v1/fill/w_951,h_984,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_cfc794133f1c475a9fbddb2719a858f3~mv2.jpeg);
+  height: 40rem;
+}
+
+.section-grid-image-two {
+  background-image: url(https://static.wixstatic.com/media/c837a6_a8d77a868ae14c038c74ca1780abe6fa~mv2.jpeg/v1/fill/w_948,h_980,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9045f280be72474491617fe62485c878~mv2.jpeg);
+}
+
+.section-grid-image-three {
+  background-image: url(https://static.wixstatic.com/media/c837a6_d14903379d0047b399718ea2e2fa506a~mv2.jpeg/v1/fill/w_951,h_984,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_659d1a1caa714f2a971a079286859e0emv2.jpeg);
+}
+
+.section-grid-image-four {
+  background-image: url(https://static.wixstatic.com/media/c837a6_39f14f8f765d4268bf5aed5a5b0ae2a4~mv2.jpeg/v1/fill/w_948,h_980,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_922c11766e1248a4ba69c5b5747d336a~mv2.jpeg);
+}
+
+.section-grid-image-five {
+  background-image: url(https://static.wixstatic.com/media/c837a6_8c51f08ea4f349dfab1510648572ae9b~mv2.jpeg/v1/fill/w_951,h_984,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_567d2b6e76584c129e68e1179ec80fa2~mv2.jpeg);
+}
+
+.section-grid-image-six {
+  background-image: url(https://static.wixstatic.com/media/c837a6_a4419e257be2401faf27d263aa16cf44~mv2.jpeg/v1/fill/w_948,h_980,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_273511ee20ef47c99f6aeeeb89831157~mv2.jpeg);
+}
+
+.section-grid-image-seven {
+  background-image: url(https://static.wixstatic.com/media/c837a6_44f2f29e9f7143d9af6a5f7c4152c909~mv2.jpeg/v1/fill/w_951,h_984,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_8a5b905c90f546a7aac3c212d86b60be~mv2.jpeg);
+}
+
+.section-grid-image-eight {
+  background-image: url(https://static.wixstatic.com/media/c837a6_6d8b74ed85a849cbaad6369392f93111~mv2.jpeg/v1/fill/w_948,h_980,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_cdc62dad3d5945fb9c7aedaaadf3fbbf~mv2.jpeg);
 }
 
 footer {
