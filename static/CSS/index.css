@@ -539,6 +539,45 @@ h3 a:hover {
   color: white;
 }
 
+.our-aim-container {
+  /* padding: 4rem 2.5rem 2.5rem; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.our-aim-header {
+  padding-left: 2rem;
+}
+
+.aim-title {
+  color: #bd4f00;
+  font-size: 40rem;
+}
+
+.aim-header {
+  padding-bottom: 5rem;
+}
+
+.our-aim-text {
+  padding-right: 16rem;
+  font-size: 0.9rem;
+}
+
+.our-aim-image {
+  background-image: url(https://static.wixstatic.com/media/c837a6_ebb146c5499c44ba9d1b9b951be4991d~mv2.jpg/v1/fill/w_872,h_767,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_70ef682806a246ad8cb85658d823e943~mv2.jpg);
+  height: 32rem;
+}
+
+.about-container {
+  padding: 2.5rem;
+}
+
+.about-image {
+  background-image: url(https://static.wixstatic.com/media/c837a6_b8de17619fdd481cb219a4e5eaf5465b~mv2.jpg/v1/fill/w_1788,h_767,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9f6b4d2b2d664fa7bba5458112875242~mv2.jpg);
+  height: 32rem;
+  margin-top: -3rem;
+}
+
 footer {
   padding: 2.5rem 5rem 0rem 2.5rem;
   background-color: #bd4f00;
