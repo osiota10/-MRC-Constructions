@@ -609,6 +609,76 @@ p.aim-description-title {
   margin-top: -5rem;
 }
 
+.contact-container {
+  padding: 2.5rem 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-header p {
+  font-size: 2.5rem;
+  color: #bd4f00;
+}
+
+form {
+  width: 100%;
+  padding: 4rem 6rem 4rem 0rem;
+  font-size: 0.9rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.input-group {
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 20px 0px 0px 10px;
+  outline: none;
+  resize: none;
+  margin-bottom: 60px;
+}
+
+form button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 40px;
+  background-color: #bd4f00;
+  color: white;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+form button:hover {
+  background-color: black;
+}
+
+.contact-image {
+  background-image: url(https://static.wixstatic.com/media/c837a6_0fe2be2f88a94002aaaf4c95c8239720~mv2.jpg/v1/fill/w_890,h_896,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_d1c2d1c821d7486c9476087d37894788~mv2.jpg);
+  height: 38rem;
+}
+
 footer {
   padding: 2.5rem 5rem 0rem 2.5rem;
   background-color: #bd4f00;
