@@ -1,1 +1,15 @@
-<section>this is the navigation</section>
+<nav>
+  <h3>
+    <a href="{% url 'home'%}"> MCR <span>Construction</span> </a>
+  </h3>
+  <section class="nav-bar">
+    <ul>
+      <li><a href="{% url 'services'%}">Services</a></li>
+      <li><a href="{% url 'projects'%}">Projects</a></li>
+      <li><a href="{% url 'about'%}">About Us</a></li>
+      <li><a href="{% url 'career'%}">Careers</a></li>
+      <li><a href="{% url 'contact'%}">Contacts</a></li>
+    </ul>
+    <button class="gen-button nav-button"><a href="">Call Now!</a></button>
+  </section>
+</nav>

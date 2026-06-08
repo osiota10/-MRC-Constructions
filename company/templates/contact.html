@@ -1,0 +1,64 @@
+{% extends "base.html" %} {% load static %} {% block content %}
+<section class="contact-container">
+  <section class="contact-header">
+    <p>Contact Us</p>
+    <form action="" method="get">
+      <div class="form-row">
+        <div class="input-group">
+          <label for="first-name">First name*</label>
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            autocomplete="on"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="last-name">Last name*</label>
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            autocomplete="on"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="input-group">
+          <label for="email">Email*</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="on"
+            required
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="subject">Subject*</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            autocomplete="on"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="textarea">Leave us a message...</label>
+        <textarea name="textarea" id="textarea"></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section class="contact-image background-image"></section>
+</section>
+{%endblock%}
