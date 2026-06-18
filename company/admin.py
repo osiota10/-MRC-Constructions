@@ -1,3 +1,22 @@
 from django.contrib import admin
-
+from .models import *
 # Register your models here.
+admin.site.register(heroContent)
+admin.site.register(whatWeDo)
+admin.site.register(whatWeDoContent)
+admin.site.register(WhoWeAre)
+admin.site.register(WhoWeAreStats)
+admin.site.register(OurServices)
+admin.site.register(OurServicesList)
+admin.site.register(OurProjects)
+admin.site.register(OurClients)
+admin.site.register(ServicePage)
+admin.site.register(ServicePageContent)
+admin.site.register(ProjectPage)
+admin.site.register(AboutUsPage)
+admin.site.register(AboutUsPageContent)
+admin.site.register(AboutUsPageContentTwo)
+admin.site.register(CareerPage)
+admin.site.register(CareerPageContent)
+admin.site.register(ContactPage)
+admin.site.register(ContactPageImg)
